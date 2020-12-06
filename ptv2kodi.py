@@ -1,8 +1,8 @@
 #!/usr/bin/python3
+import json
 import os
 import re
 import urllib.request
-import json
 
 from config import *
 
