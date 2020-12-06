@@ -1,0 +1,23 @@
+rootdirectory = "./strms"
+series_group_regex = 'Series:'
+movies_group_regex = 'VOD:'
+
+skipped_groups = ['Turkey [Arabic Sub]',
+                  'EX-YU',
+                  'Arabic',
+                  'Albania',
+                  'Turkey',
+                  'Crtani Filmovi [Ex-yu]',
+                  'Danske - Norska - Suomalainen Film',
+                  'Events',
+                  'ex-Yu Movies',
+                  'For Adults',
+                  'Germany',
+                  'India',
+                  'Iran',
+                  'Polska',
+                  'Vietnam',
+                  'English Movies [Arabic Subtitle]']
+
+url = "http://PROVIDER.URL/get.php?username=USERNAME&password=PASSWORD&type=m3u_plus&output=ts"
+rpc_url = "http://localhost:8080/jsonrpc"
